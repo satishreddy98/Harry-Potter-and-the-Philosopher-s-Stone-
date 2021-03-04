@@ -1,0 +1,115 @@
+
+body {  
+margin-bottom: 10%;
+background: #ffffff;
+}
+.glow {
+    font-size: 80px;
+    height: 30;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(214, 37, 37), 0 0 20px rgb(245, 10, 10)236, 9, 9, 0 0 30px  #f1290e, 0 0 40px  #f1290e, 0 0 50px  #f1290e, 0 0 60px  #f1290e, 0 0 70px  #f1290e;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f1290e, 0 0 40px #f1290e, 0 0 50px #f1290e, 0 0 60px #f1290e, 0 0 70px #f1290e, 0 0 80px #f1290e;
+    }
+  }
+p{
+    color: rgb(7, 0, 0)9, 3, 3);
+    text-align:justify;
+    font-size:16px;
+    font-style: italic;
+    font-family:Georgia;
+    margin-block-start: 20px;
+    margin-inline-start:30px;
+    margin-inline-end:30px;
+    padding-left: 10px;
+}
+
+/* Box styles */
+.myBox {
+border: none;
+padding: 55px;
+font: 24px/36px sans-serif;
+width: 10px;
+height: 50px;
+overflow: auto;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px white;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: grey; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: white;
+}
+
+.container{
+  
+   width: 100%;
+   height: 80vh;
+   
+   background-image: url(buffet.jpg);
+   
+   
+   
+   animation: animate 10s infinite;
+
+
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border:7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5)
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(
+        45deg,
+        white,
+        grey
+    );
+    border-radius: 3px;
+}
+
+
+
+
+
+@keyframes animate{
+    50% {
+        background-image: url(janaki.jpg);
+       
+        
+    }
+    75% {
+        background-image: url(buffet.jpg);
+       
+    }
+    100% {
+        background-image: url(web1.jpg);
+        
+    }
+    
+}

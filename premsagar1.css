@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+  *{
+    margin: 10;
+    padding: 100;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  body{
+    background-image: url(C:\Users\admin1\Desktop\web\p.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 1266px 668px; 
+  }
+
+  .contact-us{
+    width: 250px;
+    background: rgb(255, 255, 255);
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: absolute;
+  }
+
+  .title h1{
+    color: #535274;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .form,
+  .form-items{
+    width: 100%;
+  }
+
+  .form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px 15px;
+    resize: none;
+  }
+
+  .btn{
+    background: #e91ade;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+  }
+  
+  .btn:hover{background-color: #e475de;}
+  .btn:hover .{display: block;}
+  .btn:hover .btn {background-color: #e91ade;}
+
+  .btn .fas{
+    margin-left: 100px;
+    font-size: 12px;
+  }
+
+  
+  .form-items{
+    position: relative;
+  }
+
+  .form-items .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #ff5100;
+  }
+
+  .social-icons{    
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    width: 200px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-icons div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
+
+
+  .social-icons div .fab{
+    position: absolute;
+    width: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+  }
+
+  .social-icons div.facebook{
+    background: #5178d9;
+  }
+
+  .social-icons div.twitter{
+    background: #41caf6;
+  }
+
+  .social-icons div.google{
+    background: #fb4f4f;
+  }
+
+  .facebook:hover {opacity: .80;}
+  .twitter:hover {opacity: .80;}
+  .google:hover {opacity: .80;}
+  
+  .map{
+    
+    
+    padding: 20px; 
+    position: absolute;
+    
+   
+    top:170px;
+    right:-530px;
+    
+    overflow: hidden;
+    border:3px rgb(255, 255, 255); 
+    
+    border-top-left-radius: 10em/10em;
+    border-top-right-radius: 100px;
+    width: 100x; 
+    height: 250px; 
+   
+  }
+
+  .address{
+    display: block;
+    
+      text-align: center;
+      
+      border-radius: 25%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      top:80px;
+      right:-550px;
+      line-height: 2;
+  
+  }
+
+  .address-icons div .fab{
+    background: #5178d9;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+  }
+
+  .address-icons div.location1{
+    background: #5178d9;
+    padding: 10px; 
+    position: absolute;
+    border-radius: 25%;
+    top:10px;
+    right:-150px;
+  }
+
+  .address-icons div.phone{
+    background: #5178d9;
+    padding: 10px; 
+    position: absolute;
+    border-radius: 25%;
+    top:60px;
+    right:-150px;
+  }
+
+  .address-icons div.mailid{
+    background: #5178d9;
+    padding: 10px; 
+    position: absolute;
+    border-radius: 25%;
+    top:110px;
+    right:-150px;
+  }
+  .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #e91ade;
+    color: white;
+    text-align: center;
+    
+    margin-bottom: 0px;
+    
+ }
